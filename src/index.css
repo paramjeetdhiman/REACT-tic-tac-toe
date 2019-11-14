@@ -1,0 +1,141 @@
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.status {
+    padding: 20px;
+    background: #272727;
+    color: #eee;
+    margin-bottom: 10px;
+}
+
+.square {
+    background: #eee;
+    border: 2px solid #272727;
+    float: left;
+    font: bold 44px sans;
+    height: 100px;
+    padding: 0;
+    text-align: center;
+    width: 100px;
+    color: lightseagreen;
+}
+
+.square:focus {
+    outline: none;
+}
+
+.kbd-navigation .square:focus {
+    background: #ddd;
+}
+
+.game {
+    font: bold 32px sans;
+    margin: 40px 0;
+
+}
+
+.game-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.nav {
+    margin-top: -10px;
+    padding: 0;
+    background: #272727;
+    width: 100%;
+    height: 100px;
+}
+
+.nav>h1 {
+    font: bold 42px serif;
+    margin-top: 0px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: #eee;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls>ul {
+    display: flex;
+    margin: 0 0;
+    padding-inline-start: 0px;
+    margin-top: 40px;
+
+}
+
+.controls>ul>li {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.newGame {
+    border: none;
+    background: black;
+    padding: 8px;
+    font: bold 18px 'open sans';
+    color: white;
+    text-align: center;
+}
+
+.newGame:hover {
+    background: #eee;
+    padding: 9px;
+    transition: ease all 0.3s;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+.undo {
+    border: none;
+    background: black;
+    padding: 8px;
+    font: bold 18px 'open sans';
+    color: white;
+    text-align: center;
+}
+
+.undo:hover {
+    background: #eee;
+    padding: 9px;
+    transition: ease all 0.3s;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+.restart {
+    border: none;
+    background: black;
+    padding: 8px;
+    font: bold 18px 'open sans';
+    color: white;
+    text-align: center;
+}
+
+.restart:hover {
+    background: #eee;
+    padding: 9px;
+    transition: ease all 0.3s;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+
+}
